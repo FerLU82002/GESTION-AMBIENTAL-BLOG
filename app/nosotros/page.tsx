@@ -109,6 +109,7 @@ export default function Home() {
               width={350}
               height={200}
             />
+        
             <h3 className="mt-4 text-2xl font-semibold text-primary">Educación Ambiental</h3>
             <p className="mt-2 text-foreground">
               Programas educativos para fomentar la conciencia ambiental.
@@ -117,7 +118,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Sección de misión */}
       <section className="w-full text-center bg-gradient-to-b from-green-600 to-green-400 py-12 rounded-lg">
         <h2 className="text-3xl font-bold tracking-tight text-white lg:text-4xl">Misión</h2>
         <p className="mt-4 text-white max-w-2xl mx-auto">
