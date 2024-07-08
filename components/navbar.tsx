@@ -34,7 +34,7 @@ export default async function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center max-lg:hidden  p-16">
+      <nav className="flex justify-between items-center max-lg:hidden p-16">
         <ul className="flex space-x-4 justify-start items-center">
           <li>
             <Link href="/">
@@ -48,19 +48,18 @@ export default async function Navbar() {
             </Link>
           </li>
           <li>
-          <Button variant="ghost">
-              <Link href="/nosotros">Nosotros</Link>
-            </Button>
+            <Link href="/nosotros">
+              <Button variant="ghost">Nosotros</Button>
+            </Link>
           </li>
           <li>
-            <Button variant="ghost">
-              <Link href="/entradas">Entradas</Link>
-            </Button>
+            <Link href="/entradas">
+              <Button variant="ghost">Entradas</Button>
+            </Link>
           </li>
           <li>
             <DropdownCategorias categorias={categoriasUnicas} />
           </li>
-          
         </ul>
         <div className="flex gap-4">
           <Buscador posts={posts} />
@@ -83,12 +82,10 @@ export default async function Navbar() {
         </ul>
         <ul className="flex space-x-4 justify-end items-center">
           <li>
-            <Button variant="ghost">
-              {" "}
-              <Link href="/entradas">Entradas</Link>
-            </Button>
+            <Link href="/entradas">
+              <Button variant="ghost">Entradas</Button>
+            </Link>
           </li>
-        
           <li>
             <DropdownCategorias categorias={categoriasUnicas} />
           </li>
