@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 max-w-2xl mx-auto">
           <h1 className="hover:animate- mt-8 text-4xl font-bold tracking-tight text-green-50 lg:text-6xl ">
-            Bienvenidos a Unidad Funcional de Gestión Ambiental 
+            Bienvenidos a Unidad Funcional de Gestión Ambiental
           </h1>
           <p className="mt-4 text-lg text-white lg:text-xl ">
             Comprometidos con el medio ambiente y la sostenibilidad.
@@ -117,51 +117,49 @@ export default function Home() {
         </div>
       </section>
 
-{/* Testimonials Section */}
-<section className="w-full text-center bg-gradient-to-b from-green-600 to-green-400 py-12 rounded-lg">
-  <h2 className="text-3xl font-bold tracking-tight text-white lg:text-4xl">Misión</h2>
-  <p className="mt-4 text-white max-w-2xl mx-auto">
-    La misión de la Oficina de Gestión Ambiental de la Universidad Nacional Hermilio Valdizán es promover y liderar la implementación de prácticas sostenibles dentro de la universidad. Nos dedicamos a educar, sensibilizar y apoyar a nuestra comunidad universitaria en la adopción de medidas ecoeficientes que contribuyan a la protección del medio ambiente y al bienestar de las generaciones futuras.
-  </p>
-  <div className="mt-8 flex flex-col items-center gap-y-8 lg:flex-row lg:justify-around lg:gap-y-0">
-    <div className="max-w-xs bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-      <p className="italic text-foreground">
-        "Gracias a la Oficina de Gestión Ambiental, hemos logrado reducir significativamente nuestra huella de carbono."
-      </p>
-      <p className="mt-4 font-semibold text-primary">- Estudiante Satisfecho</p>
-    </div>
-    <div className="max-w-xs bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-      <p className="italic text-foreground">
-        "Las iniciativas ambientales nos han permitido alcanzar nuestros objetivos de sostenibilidad."
-      </p>
-      <p className="mt-4 font-semibold text-primary">- Profesor Comprometido</p>
-    </div>
-    <div className="max-w-xs bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-      <p className="italic text-foreground">
-        "Recomiendo a todos los miembros de la comunidad universitaria participar en las actividades de gestión ambiental."
-      </p>
-      <p className="mt-4 font-semibold text-primary">- Personal Administrativo</p>
-    </div>
-  </div>
-</section>
+      {/* Testimonials Section */}
+      <section className="w-full text-center bg-gradient-to-b from-green-600 to-green-400 py-12 rounded-lg">
+        <h2 className="text-3xl font-bold tracking-tight text-white lg:text-4xl">Misión</h2>
+        <p className="mt-4 text-white max-w-2xl mx-auto">
+          La misión de la Oficina de Gestión Ambiental de la Universidad Nacional Hermilio Valdizán es promover y liderar la implementación de prácticas sostenibles dentro de la universidad. Nos dedicamos a educar, sensibilizar y apoyar a nuestra comunidad universitaria en la adopción de medidas ecoeficientes que contribuyan a la protección del medio ambiente y al bienestar de las generaciones futuras.
+        </p>
+        <div className="mt-8 flex flex-col items-center gap-y-8 lg:flex-row lg:justify-around lg:gap-y-0">
+          <div className="max-w-xs bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+            <p className="italic text-foreground">
+              &quot;Gracias a la Oficina de Gestión Ambiental, hemos logrado reducir significativamente nuestra huella de carbono.&quot;
+            </p>
+            <p className="mt-4 font-semibold text-primary">- Estudiante Satisfecho</p>
+          </div>
+          <div className="max-w-xs bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+            <p className="italic text-foreground">
+              &quot;Las iniciativas ambientales nos han permitido alcanzar nuestros objetivos de sostenibilidad.&quot;
+            </p>
+            <p className="mt-4 font-semibold text-primary">- Profesor Comprometido</p>
+          </div>
+          <div className="max-w-xs bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+            <p className="italic text-foreground">
+              &quot;Recomiendo a todos los miembros de la comunidad universitaria participar en las actividades de gestión ambiental.&quot;
+            </p>
+            <p className="mt-4 font-semibold text-primary">- Personal Administrativo</p>
+          </div>
+        </div>
+      </section>
 
-
-{/* Call to Action Section */}
-<section className="w-full text-center py-12">
-  <h2 className="text-3xl font-bold tracking-tight text-primary lg:text-4xl">¡Actúa Ahora!</h2>
-  <p className="mt-4 text-lg text-foreground lg:text-xl">
-    Únete a nuestra misión de promover la sostenibilidad en la Universidad Nacional Hermilio Valdizán. Contáctanos para obtener más información sobre nuestras iniciativas ambientales y cómo puedes contribuir.
-  </p>
-  <a
-    href="https://your-link-here.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-6 inline-block px-6 py-3 text-lg font-medium text-white bg-green-500 rounded-lg hover:bg-green-600"
-  >
-    Contáctanos
-  </a>
-</section>
-
+      {/* Call to Action Section */}
+      <section className="w-full text-center py-12">
+        <h2 className="text-3xl font-bold tracking-tight text-primary lg:text-4xl">¡Actúa Ahora!</h2>
+        <p className="mt-4 text-lg text-foreground lg:text-xl">
+          Únete a nuestra misión de promover la sostenibilidad en la Universidad Nacional Hermilio Valdizán. Contáctanos para obtener más información sobre nuestras iniciativas ambientales y cómo puedes contribuir.
+        </p>
+        <a
+          href="https://your-link-here.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block px-6 py-3 text-lg font-medium text-white bg-green-500 rounded-lg hover:bg-green-600"
+        >
+          Contáctanos
+        </a>
+      </section>
     </main>
   );
 }
