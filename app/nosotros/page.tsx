@@ -153,7 +153,7 @@ export default function Home() {
           Únete a nuestra misión de promover la sostenibilidad en la Universidad Nacional Hermilio Valdizán. Contáctanos para obtener más información sobre nuestras iniciativas ambientales y cómo puedes contribuir.
         </p>
         <a
-          href="https://your-link-here.com"
+          href="https://chat.whatsapp.com/IhjdNHEcoADLQEiDATVHG5"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-block px-6 py-3 text-lg font-medium text-white bg-green-500 rounded-lg hover:bg-green-600"
