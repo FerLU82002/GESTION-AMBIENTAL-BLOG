@@ -39,7 +39,7 @@ export default async function Navbar() {
           <li>
             <Link href="/">
               <Image
-                src="/next.svg"
+                src="/LogoA1.jpg"
                 alt="Logo"
                 width={100}
                 height={100}
@@ -71,10 +71,10 @@ export default async function Navbar() {
           <li>
             <Link href="/">
               <Image
-                src="/next.svg"
+                src="/public/LogoA.svg"
                 alt="Logo"
-                width={100}
-                height={100}
+                width={200}
+                height={200}
                 className="mr-8 dark:filter dark:invert"
               />
             </Link>

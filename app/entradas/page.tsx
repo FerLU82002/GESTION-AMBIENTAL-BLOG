@@ -8,8 +8,8 @@ export const dynamic = "auto",
   revalidate = 10;
 
 export const metadata: Metadata = {
-  title: "Entradas del Blog de Juan",
-  description: "Estas son las entradas del blog de Juan",
+  title: "Entradas del Blog",
+  description: "Posts de gestión ambiental",
 };
 
 export default async function Entradas() {

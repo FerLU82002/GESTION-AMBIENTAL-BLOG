@@ -10,8 +10,8 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mi primer Blog",
-  description: "Generado con Next.js",
+  title: "unehvalambiente",
+  description: "Diseñado para publicaciones del area de gestión ambiental",
 };
 
 export default function RootLayout({
